@@ -1,0 +1,39 @@
+def bedtime_story():
+    print("Welcome to the Bedtime Story Generator!")
+    name = input("What's your name? ")
+    animal = input("Choose an animal: ")
+    place = input("Name a place: ")
+    object_1 = input("Name an object: ")
+    object_2 = input("Name another object: ")
+
+    story = f"""
+    Once upon a time, in a faraway land called {place}, there lived a curious {animal} named {name}. 
+    {name} loved to explore the woods and discover new things. 
+
+    One day, while wandering through the forest, {name} stumbled upon a magical {object_1}. 
+    The {object_1} was unlike anything {name} had ever seen before. It glowed with a soft light, and 
+    when {name} touched it, a gentle voice whispered, "You have found the key to a hidden treasure!"
+
+    Excited, {name} followed the light of the {object_1} deep into the forest. After a long journey, 
+    {name} arrived at a mysterious cave. Inside the cave, {name} found a treasure chest. The chest was 
+    locked, but {name} remembered the {object_2} they had found earlier that day. 
+
+    With a heart full of hope, {name} used the {object_2} to unlock the chest. As the lid slowly opened, 
+    a brilliant light filled the cave. Inside, {name} found the most beautiful gems and gold coins, but 
+    the true treasure was a small, sparkling star.
+
+    The star floated out of the chest and spoke, "I am the Star of Friendship. You have shown great 
+    bravery and kindness, {name}. Take me with you, and I will guide you and your friends on many more 
+    adventures."
+
+    From that day on, {name} and the Star of Friendship traveled together, bringing light and joy 
+    wherever they went. And every night, when {name} looked up at the sky, they knew that the star 
+    would always be there to guide them.
+
+    The End.
+    """
+
+    print(story)
+
+if __name__ == "__main__":
+    bedtime_story()
